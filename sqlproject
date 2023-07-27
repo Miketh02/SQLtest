@@ -13,3 +13,4 @@ union (
 		from sale_17
 		)
 order by 1 desc
+
