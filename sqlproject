@@ -1,0 +1,15 @@
+-- Show sale data table & order by date
+
+select * 
+from sale_16
+order by 1, 2
+
+-- union with Sale 2017
+
+select * 
+from sale_16
+union (
+		select *
+		from sale_17
+		)
+order by 1 desc
